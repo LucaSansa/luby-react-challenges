@@ -1,0 +1,38 @@
+.Container{
+    width: 40%;
+    margin: auto;
+
+}
+
+.Challenge05{
+    border-radius: 10px;  
+    padding: 20px;
+    
+}
+
+.Challenge05 h1{
+    text-align: center;
+}
+
+.Resumo{
+    align-items: center;
+    justify-content: center;
+}
+
+.Produtos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Hud{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Hud div{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}

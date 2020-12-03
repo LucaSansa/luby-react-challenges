@@ -1,0 +1,15 @@
+.Challenge03{
+    width: 30%;
+    border: 2px solid #C5C1C1;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: #f4f4f4;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.Challenge03 h1{
+    margin-right: 15px;
+    font-size: 40px;
+}

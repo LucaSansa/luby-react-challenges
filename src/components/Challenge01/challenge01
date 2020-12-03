@@ -1,0 +1,66 @@
+/*
+## Seu arquivo ou diretório deve ser no formato 01-react-seu-nome.js
+
+01 - Explique com suas palavras as perguntas abaixo.
+
+O que é o reactjs?
+
+R:  Reactjs é um framework em javascript para criação de aplicações frontend, ele permite codificar interfaces
+utilizando javascript ou mais precisamente utilizando jsx que tem uma sintaxe parecida com html porém não é html,
+com react podemos componentizar toda a nossa aplicação consumindo estados ou funçoes de outros componentes,
+alem de poder aproveitar propriodades que são passados como parametro para outros componentes,
+no react os componentes podem ser renderizados de forma idependente dos outros componentes que compunham
+a interface dependendo da sua aplicação
+
+Qual benefício o reactjs trouxe para o mundo de desenvolvimento front end?
+R:  Acredito que o beneficio de desempenho, pois com react consiguimos renderizar partes isolados do dom, ao inves
+de renderizar o dom completamente a cada alteração, a tambem a possibilidade de criar interfaces utilizando apenas 
+javascript.
+
+Qual o maior problema de performance que ocorria em aplicações front-end feitas com javascript puro
+e html que o reactjs resolve? E como ele faz isso?
+
+R: Acredito que as manipulações do Dom e o carregamento de arquivos grandes comprometeriam o desempenho de aplicações em javascript puro.
+O react cria uma estrutura capaz de melhorar a forma com que as aplicações manipulam e atualizam o Dom utilizando componentização,
+que nos permite chamar e renderizar componente idependentes do restante dos componentes que compunham uma tela por exemplo. De certa forma
+isso tira a necessidade de renderizações "pesadas" o que melhora o desempenho de aplicações.
+
+O que é o conceito de HOC (Higher-Order Components) ?
+R:
+É um componente criado que permite unificar informaçoes ou logica para varios componentes que estejam envoltos 
+por ele permitindo reaproveitar codigo, por exemplo se eu desejo fazer algo antes da renderização de um componente
+em varias paginas eu crio um componente que fará tal tarefa e o importo nos componentes que devem seguir
+a logica do HOC dizendo que o componente é involto por Hoc.
+
+export default HocComponent(componenteEnvolto);
+
+O que são props?
+R: Props são informações de um componente que podem ser compartilhados para outros componentes.
+
+O que é state?
+R: Como diz o nome, é um estado de variavel ou do componente em si que pode ser alterado atravez de metodos estes
+metodos podem ser passados via props para que outros componentes consigam modificar este estado.
+
+Qual a diferença entre props e state?
+R: states são metodos ou variaveis que podem ser acessadas via props,
+props são meios que outros componentes podem acessar as states para modificalas.
+
+
+Como seria um state para gerenciar a exibição de um popup (ou modal) apenas para abrir e fechar?
+R:
+
+state = {
+    modalVisible: false
+}
+
+
+Como seria um método para realizar a exibição de um popup (ou modal) apenas para abrir e fechar?
+R:
+
+modalHendler = () => {
+    this.setState({modalVisible: !this.state.modalVisible});
+}
+
+<button onClick={() => this.modalHandler}></button>
+
+*/

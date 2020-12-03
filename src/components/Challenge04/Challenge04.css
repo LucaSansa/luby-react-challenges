@@ -1,0 +1,33 @@
+.Container{
+    width: 40%;
+    margin: auto;
+    
+}
+
+.Challenge04{
+    /* width: 40%; */
+    background-color: #00f991;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.Challenge04 h1{
+    text-align: center;
+}
+
+.Challenge04 ul{
+    display: flex;
+    justify-content: center;
+}
+
+
+.Resumo{
+    padding-left: 40px;
+}
+
+.Teste{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
