@@ -11,7 +11,7 @@ import Header from './components/Header/Header';
 
 const Routes = () => {
     return(
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Header/>
             <Switch>
                 <Route exact path="/" render={props => <Challenge02 {...props} number={2} nome="Carro"/>}/>

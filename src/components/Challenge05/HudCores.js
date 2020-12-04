@@ -14,7 +14,7 @@ class HudCores extends Component{
         colorOrange: false,
         colorGreen: false,
         black: {
-            backgroundColor: '#282828'
+            backgroundColor: '#282828'    
         },
         blue:{
             backgroundColor: '#0000FF'

@@ -53,7 +53,7 @@ class Challenge05Father extends Component{
 
     colorChange = (value) => {
         if(value === '#282828' || value === 'black'){
-            alert('Cor incompatível com a cor do texto!'); 
+            this.setState({style: {backgroundColor: value, color: '#FFF'}});
             return;
         }
 
