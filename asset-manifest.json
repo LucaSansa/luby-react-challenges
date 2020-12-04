@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/luby-react-challenges/static/css/main.71e63113.chunk.css",
-    "main.js": "/luby-react-challenges/static/js/main.219e8d90.chunk.js",
-    "main.js.map": "/luby-react-challenges/static/js/main.219e8d90.chunk.js.map",
+    "main.js": "/luby-react-challenges/static/js/main.12c86303.chunk.js",
+    "main.js.map": "/luby-react-challenges/static/js/main.12c86303.chunk.js.map",
     "runtime-main.js": "/luby-react-challenges/static/js/runtime-main.f36b9505.js",
     "runtime-main.js.map": "/luby-react-challenges/static/js/runtime-main.f36b9505.js.map",
     "static/js/2.079b07d1.chunk.js": "/luby-react-challenges/static/js/2.079b07d1.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f36b9505.js",
     "static/js/2.079b07d1.chunk.js",
     "static/css/main.71e63113.chunk.css",
-    "static/js/main.219e8d90.chunk.js"
+    "static/js/main.12c86303.chunk.js"
   ]
 }
